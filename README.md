@@ -21,7 +21,7 @@ This repository contains the code files for two major tasks:
 
 ## Directory Structure
 
-.
+```bash
 ├── FHIR_Resource_Generation
 │ ├── README.md
 │ ├── Prompt_Engineering.ipynb
@@ -32,7 +32,7 @@ This repository contains the code files for two major tasks:
 ├── adobe_text_extraction.ipynb
 ├── protocols_zuma
 └── ExtractTextInfoFromPDF_zuma1
-
+```
 ## Getting Started
 
 ### Prerequisites
