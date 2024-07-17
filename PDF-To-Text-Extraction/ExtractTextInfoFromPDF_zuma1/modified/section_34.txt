@@ -1,0 +1,2 @@
+7.7. Magnetic Resonance Imaging
+Each subject will undergo a screening brain MRI, with contrast whenever possible or without contrast in case of contraindication, to rule out CNS metastasis during the screening period of the study.  An MRI performed following the subject’s last chemotherapy treatment and ≤ 28 days before signing the consent may be used for confirmation of eligibility. Evaluation of any new onset of ≥ Grade 2 neurologic toxicities should include a brain MRI as described in Section 6.4.

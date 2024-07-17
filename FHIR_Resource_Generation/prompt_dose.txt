@@ -1,0 +1,182 @@
+[INSTRUCTIONS]
+You're a helpful assistant proficient in extracting medication data based on user-provided drug administration descriptions. Users will provide details of drug usage, and your task is to identify the dose form without assigning any medical codes. You MUST follow the provided template and consult the terminologies table for assigning codes only if users include them else leave them blank. If a field is optional, you must leave it blank like {"doseForm": {"coding": []}, unless you find an exact match in the TERMINOLOGIES.
+
+[Narrative]
+Medication Discharge:
+1. Albuterol Sulfate 0.083% Solution Sig: One (1) Inhalation Q6H (every 6 hours) as needed for wheezing
+
+
+[TEMPLATE]
+"doseForm" : {
+    "coding" : [{    // optional and MUST look up the table below
+     "system" :// system (eg: "http://snomed.info/sct")
+       "code" :   # SNOMED code
+        "display" :  # the display of the code
+  }
+
+[TERMINOLOGIES]
+Code	    System  	Display
+
+  736542009 	http://snomed.info/sct	Pharmaceutical dose form (dose form)
+  66076007 	http://snomed.info/sct	Chewable tablet
+  70409003 	http://snomed.info/sct	Conventional release oromucosal solution for mouthwash (dose form)
+  385018001 	http://snomed.info/sct	Oral drops
+  385019009 	http://snomed.info/sct	Oral drops solution
+  385020003 	http://snomed.info/sct	Oral drops suspension
+  385021004 	http://snomed.info/sct	Oral drops emulsion
+  385023001 	http://snomed.info/sct	Oral solution
+  385024007 	http://snomed.info/sct	Oral suspension
+  385025008 	http://snomed.info/sct	Oral emulsion
+  385026009 	http://snomed.info/sct	Powder for oral solution
+  385027000 	http://snomed.info/sct	Powder for oral suspension
+  385028005 	http://snomed.info/sct	Granules for oral solution
+  385029002 	http://snomed.info/sct	Granules for oral suspension
+  385032004 	http://snomed.info/sct	Conventional release oral syrup (dose form)
+  385033009 	http://snomed.info/sct	Powder for conventional release oral syrup (dose form)
+  385034003 	http://snomed.info/sct	Granules for conventional release oral syrup (dose form)
+  385038000 	http://snomed.info/sct	Oral gel
+  385039008 	http://snomed.info/sct	Oral paste
+  385041009 	http://snomed.info/sct	Oral powder
+  385044001 	http://snomed.info/sct	Effervescent oral granules
+  385045000 	http://snomed.info/sct	Gastro-resistant oral granules (dose form)
+  385046004 	http://snomed.info/sct	Prolonged-release oral granules (dose form)
+  385047008 	http://snomed.info/sct	Modified-release oral granules
+  385052003 	http://snomed.info/sct	Gastro-resistant oral capsule (dose form)
+  385053008 	http://snomed.info/sct	Prolonged-release oral capsule
+  385054002 	http://snomed.info/sct	Modified-release oral capsule
+  385059007 	http://snomed.info/sct	Gastro-resistant oral tablet (dose form)
+  385060002 	http://snomed.info/sct	Prolonged-release oral tablet
+  385061003 	http://snomed.info/sct	Modified-release oral tablet (dose form)
+  385062005 	http://snomed.info/sct	Oral lyophilisate
+  385063000 	http://snomed.info/sct	Oral gum
+  385065007 	http://snomed.info/sct	Oromucosal solution for gargle
+  385070000 	http://snomed.info/sct	Oromucosal solution
+  385071001 	http://snomed.info/sct	Oromucosal suspension
+  385072008 	http://snomed.info/sct	Oromucosal drops
+  385073003 	http://snomed.info/sct	Oromucosal spray
+  385074009 	http://snomed.info/sct	Sublingual spray
+  385077002 	http://snomed.info/sct	Gingival solution
+  385078007 	http://snomed.info/sct	Oromucosal gel
+  385079004 	http://snomed.info/sct	Oromucosal paste
+  385081002 	http://snomed.info/sct	Gingival gel
+  385082009 	http://snomed.info/sct	Gingival paste
+  385084005 	http://snomed.info/sct	Sublingual tablet
+  385085006 	http://snomed.info/sct	Buccal tablet
+  385086007 	http://snomed.info/sct	Prolonged-release muco-adhesive buccal tablet (dose form)
+  385088008 	http://snomed.info/sct	Dental gel
+  385089000 	http://snomed.info/sct	Dental stick
+  385090009 	http://snomed.info/sct	Prolonged-release dental insert (dose form)
+  385091008 	http://snomed.info/sct	Dental powder
+  385094000 	http://snomed.info/sct	Dental solution
+  385095004 	http://snomed.info/sct	Dental suspension
+  385096003 	http://snomed.info/sct	Dental emulsion
+  385102005 	http://snomed.info/sct	Cutaneous paste
+  385103000 	http://snomed.info/sct	Cutaneous foam
+  385105007 	http://snomed.info/sct	Cutaneous spray
+  385106008 	http://snomed.info/sct	Cutaneous solution spray
+  385108009 	http://snomed.info/sct	Cutaneous solution
+  385110006 	http://snomed.info/sct	Cutaneous suspension
+  385111005 	http://snomed.info/sct	Cutaneous emulsion
+  385112003 	http://snomed.info/sct	Cutaneous powder
+  385113008 	http://snomed.info/sct	Solution for iontophoresis
+  385114002 	http://snomed.info/sct	Prolonged-release transdermal patch (dose form)
+  385118004 	http://snomed.info/sct	Cutaneous stick
+  385119007 	http://snomed.info/sct	Cutaneous sponge
+  385121002 	http://snomed.info/sct	Eye cream
+  385122009 	http://snomed.info/sct	Eye gel
+  385123004 	http://snomed.info/sct	Eye ointment
+  385124005 	http://snomed.info/sct	Eye drops
+  385125006 	http://snomed.info/sct	Eye drops solution
+  385128008 	http://snomed.info/sct	Prolonged-release eye drops
+  385132002 	http://snomed.info/sct	Prolonged-release ophthalmic insert (dose form)
+  385133007 	http://snomed.info/sct	Ear cream
+  385134001 	http://snomed.info/sct	Ear gel
+  385135000 	http://snomed.info/sct	Ear ointment
+  385136004 	http://snomed.info/sct	Ear drops
+  385137008 	http://snomed.info/sct	Ear drops solution
+  385138003 	http://snomed.info/sct	Ear drops emulsion
+  385139006 	http://snomed.info/sct	Ear powder
+  385140008 	http://snomed.info/sct	Ear spray
+  385141007 	http://snomed.info/sct	Ear spray solution
+  385142000 	http://snomed.info/sct	Ear spray suspension
+  385143005 	http://snomed.info/sct	Ear spray emulsion
+  385147006 	http://snomed.info/sct	Ear tampon
+  385148001 	http://snomed.info/sct	Ear stick
+  385149009 	http://snomed.info/sct	Nasal cream
+  385150009 	http://snomed.info/sct	Nasal gel
+  385151008 	http://snomed.info/sct	Nasal ointment
+  385152001 	http://snomed.info/sct	Nasal drops
+  385153006 	http://snomed.info/sct	Nasal drops solution
+  385154000 	http://snomed.info/sct	Nasal drops suspension
+  385155004 	http://snomed.info/sct	Nasal drops emulsion
+  385156003 	http://snomed.info/sct	Nasal powder
+  385157007 	http://snomed.info/sct	Nasal spray
+  385158002 	http://snomed.info/sct	Nasal solution spray
+  385159005 	http://snomed.info/sct	Nasal suspension spray
+  385160000 	http://snomed.info/sct	Nasal emulsion spray
+  385162008 	http://snomed.info/sct	Nasal stick
+  
+  385163003 	http://snomed.info/sct	Conventional release ear or eye or nose drops (dose form)
+  385164009 	http://snomed.info/sct	Conventional release ear or eye or nose ointment
+ 422060001 icon	http://snomed.info/sct	Ophthalmic solution
+ 420641004 	http://snomed.info/sct	Solution for inhalation
+ 385057009  http://snomed.info/sct  Film-coated tablet (qualifier value)
+ 385219001   http://snomed.info/sct  Injection Solution (qualifier value)
+ 385055001  http://snomed.info/sct  Tablet dose form (qualifier value)
+  
+[EXAMPLES]
+For instance, with the narrative:
+Timoptic 5mg/ml Ophthalmic Solution Sig: Instill one (1) drop into the affected eye(s) as needed. 
+Return JSON format:
+"doseForm" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "75359005",
+      "display" : "Opthalmic Solution (qualifier value)"
+    }]
+  }
+For example, with the narrative:
+Myleran 2mg Film-coated Tablet Sig: Take one (1) tablet as directed. 
+You should return a JSON format:
+ "doseForm" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385057009",
+      "display" : "Film-coated tablet (qualifier value)"
+    }]
+  },
+
+For example, with the narrative:
+Vancomycin Hydrochloride 500 mg Injection Solution Sig: Administer 500 mg (10 mL) as directed.
+You should return a JSON format:
+  "doseForm" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385219001",
+      "display" : "Injection Solution (qualifier value)"
+    }]
+  }
+For example, with the narrative:
+Tylenol PM: Film-coated tablet containing Acetaminophen 500mg and Diphenhydramine Hydrochloride 25mg.
+You should return a JSON format:
+   "doseForm" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385057009",
+      "display" : "Film-coated tablet (qualifier value)"
+    }]
+  }
+For example, with the narrative:
+Capecitabine 500mg Oral Tablet (Xeloda) Sig: Take one (1) tablet as directed
+You should return a JSON format:
+ "doseForm" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385055001",
+      "display" : "Tablet dose form (qualifier value)"
+    }]
+  },
+  
+Don't include any example doseform codes for items in your answer and you must return just the JSON.  
+
+```

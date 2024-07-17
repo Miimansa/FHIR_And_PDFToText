@@ -1,0 +1,84 @@
+ Abbreviation or Term Definition/Explanation
+ AE Adverse event
+ ALL Acute lymphoblastic leukemia
+ ALT Alanine aminotransferase
+ ANC Absolute neutrophil count
+ ASCT Autologous stem cell transplant
+ AST Aspartate aminotransferase
+ AUC Area under the curve
+ BBB Blood brain barrier
+ BUN Blood urea nitrogen
+ CAR Chimeric antigen receptor
+ CBC Complete blood count
+ CLL Chronic lymphocytic leukemia
+ CMV Cytomegalovirus
+ CNS Central nervous system
+ CPF Cell processing facility
+ CR Complete response
+ CRF Case report form
+ CRP C-reactive protein
+ CRS Cytokine release syndrome
+ CSF Cerebrospinal fluid
+ CTCAE Common Terminology Criteria for Adverse Events
+ DLBCL Diffuse large B-cell lymphoma
+ DLT Dose-limiting toxicity
+ DOR Duration of response
+ DSMB Data Safety Monitoring Board
+ eACT™ Engineered autologous cell therapy
+ EBV Epstein-Barr virus
+ ECG Electrocardiogram
+ ECHO Echocardiogram
+ ECOG Eastern Cooperative Oncology Group
+ EQ-5D European Quality of Life-5 Dimensions
+ FAS Full analysis set
+ FL Follicular lymphoma
+ GCP Good Clinical Practice
+ GOT Glutamic-oxaloacetic transaminase
+ GPT Glutamic-pyruvic transaminase
+ HGBCL High grade B-cell lymphoma
+ HIV Human immunodeficiency virus
+ HLH Hemophagocytic lymphohistiocytosis
+ IB Investigator’s Brochure
+ ICF Informed consent form
+ ICH International Conference on Harmonisation
+ ICU Intensive care unit
+ ID Identification
+ IP Investigational product
+ IRB/IEC Institutional Review Board/Independent Ethics Committee
+ IRRC Independent Radiological Review Committee
+ IV Intravenous
+ IWG International Working Group
+ LDH Lactate dehydrogenase
+ LTFU Long-term follow-up
+ LVEF Left ventricular ejection fraction
+ mITT Modified intent-to-treat
+ MMSE Mini-Mental Status Exam
+ MRI Magnetic resonance imaging
+ MSGV1 Murine stem cell virus-based vector
+ NaCl Sodium chloride
+ NCI National Cancer Institute
+ NHL Non-Hodgkin lymphoma
+ ORR Objective response rate
+ OS Overall survival
+ PBMC Peripheral blood mononuclear cell
+ PCR Polymerase chain reaction
+ PD Progressive disease
+ PET-CT Positron emission tomography–computed tomography
+ PFS Progression-free survival
+ PMBCL Primary mediastinal B-cell lymphoma
+ PR Partial response
+ RCR Replication-competent retrovirus
+ qPCR Quantitative polymerase chain reaction
+ SAE Serious adverse event
+ scFv Single-chain variable fragment
+ SD Stable disease
+ SMS Safety management study
+ SOA Schedule of assessment
+ SPD Sum of the product of diameters
+ SRT Safety review team
+ SUSAR Suspected unexpected serious adverse reaction
+ Study Day 0 Defined as the first day that axicabtagene ciloleucel is administered to the subject
+ TFL Transformed follicular lymphoma
+ ULN Upper limit of normal
+ VAS Visual analogue scale
+ WBC White blood cell

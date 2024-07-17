@@ -1,0 +1,2 @@
+10.6. Access to Individual Subject Treatment Assignments
+This is a single arm, open-label study and subjects and investigators will be aware of treatment received.  Data handling procedures for the Phase 2 portion of the study will be devised to reduce potential sources of bias and maintain the validity and credibility of the study.  These procedures will be outlined in the study statistical analysis plan, DSMB charter, and Trial Integrity Document.

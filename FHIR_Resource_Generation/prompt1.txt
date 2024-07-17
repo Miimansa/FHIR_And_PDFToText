@@ -1,0 +1,188 @@
+[INSTRUCTIONS]
+You're a helpful assistant proficient in extracting medication data based on user-provided drug administration descriptions. Users will provide details of drug usage, and your task is to identify the drug's ingredient without assigning any medical codes. You MUST follow the provided template and consult the terminologies table for assigning codes only if users include them. If a field is optional, you can leave it blank. Display just the name if code is not present.
+
+[Narrative]
+Medication Discharge:
+1. Albuterol Sulfate 0.083% Solution Sig: One (1) Inhalation Q6H (every 6 hours) as needed for wheezing.
+
+
+[TEMPLATE]
+"ingredient" : [{
+    "item" : {
+      "concept" : {
+        "coding" : [{   // optional and MUST look up the table below
+          "system" :// system (eg: "http://snomed.info/sct")
+          "code" :    # SNOMED code
+          "display" :  # the display of the code
+        }]
+      }
+    },
+    "isActive": # optional boolean 
+    "strengthRatio" : {
+      "numerator" : {   // optional and MUST look up the table below
+        "value" :  # Quantity
+        "system" :// system (eg: "http://unitsofmeasure.org")
+        "code" : # Unit of measurement code
+      },
+      "denominator" : {   // optional and MUST look up the table below
+        "value" : 	#SimpleQuantity
+        "system" : // system (eg: "http://unitsofmeasure.org"),
+        "code" : # Unit of measurement code
+      }
+    }
+  }]
+
+[TERMINOLOGIES]
+Code   Display
+g         Gram
+mg     Milligram
+µg      Microgram
+L         Liter
+mL      Milliliter
+/         Per (used to represent a ratio)
+%        Percent
+g/L    Gram per Liter
+mg/mL  Milligram per Milliliter
+µg/mL Microgram per Milliliter
+mL/mL  Milliliter per Milliliter (dimensionless concentration)
+U          Unit (used for medications with units such as insulin)
+IU      International Unit (common for vitamins and hormones)
+TAB  Tablet
+CAP  Capsule
+75359005  Timolol Maleate (substance)
+387138002  Busulfan (substance)
+66955  Vancomycin Hydrochloride
+315266  Acetaminophen 500 MG
+901813  Diphenhydramine Hydrochloride 25 mg
+[EXAMPLES]
+For instance, with the narrative:
+Timoptic 5mg/ml Ophthalmic Solution Sig: Instill one (1) drop into the affected eye(s) as needed. 
+Return JSON format:
+"ingredient" : [{
+    "item" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "75359005",
+          "display" : "Timolol Maleate (substance)"
+        }]
+      }
+    },
+    "strengthRatio" : {
+      "numerator" : {
+        "value" : 5,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      },
+      "denominator" : {
+        "value" : 1,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mL"
+      }
+    }
+  }]
+For example, with the narrative:
+Myleran 2mg Film-coated Tablet Sig: Take one (1) tablet as directed. 
+You should return a JSON format:
+"ingredient" : [{
+    "item" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "387138002",
+          "display" : "Busulfan (substance)"
+        }]
+      }
+    },
+    "strengthRatio" : {
+      "numerator" : {
+        "value" : 2,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      },
+      "denominator" : {
+        "value" : 1,
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+        "code" : "TAB"
+      }
+    }
+  }],
+
+For example, with the narrative:
+Vancomycin Hydrochloride 500 mg Injection Solution Sig: Administer 500 mg (10 mL) as directed.
+You should return a JSON format:
+"ingredient" : [{
+    "item" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code" : "66955",
+          "display" : "Vancomycin Hydrochloride"
+        }]
+      }
+    },
+    "isActive" : true,
+    "strengthRatio" : {
+      "numerator" : {
+        "value" : 500,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      },
+      "denominator" : {
+        "value" : 10,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mL"
+      }
+    }
+  }]
+For example, with the narrative:
+Tylenol PM: Film-coated tablet containing Acetaminophen 500mg and Diphenhydramine Hydrochloride 25mg.
+You should return a JSON format:
+   "ingredient" : [{
+    "item" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code" : "315266",
+          "display" : "Acetaminophen 500 MG"
+        }]
+      }
+    },
+    "strengthRatio" : {
+      "numerator" : {
+        "value" : 500,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      },
+      "denominator" : {
+        "value" : 1,
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+        "code" : "TAB"
+      }
+    }
+  },
+  {
+    "item" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code" : "901813",
+          "display" : "Diphenhydramine Hydrochloride 25 mg"
+        }]
+      }
+    },
+    "strengthRatio" : {
+      "numerator" : {
+        "value" : 25,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      },
+      "denominator" : {
+        "value" : 1,
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+        "code" : "TAB"
+      }
+    }
+  }]
+  
+Don't include any example ingredient codes for items in your answer and you must return just the JSON. Also, give an explaination on why you are giving 1 ml in the denominator. Can you give some reference to ensure that you are factually correct? Please give the o 

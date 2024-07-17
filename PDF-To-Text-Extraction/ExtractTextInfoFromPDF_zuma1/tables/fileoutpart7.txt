@@ -1,0 +1,7 @@
+ Table 3. Debulking Therapy Regimens
+ Type Proposed Regimena Timing/Washout
+ R-CHOP (Feugier et al, 2005) Rituximab 375 mg/m2 Day 1 Doxorubicin 50 mg/m2 Day 1 Prednisone 100 mg Day 1 through Day 5 Cyclophosphamide 750 mg/m2 Day 1 Vincristine 1.4 mg/m2 Day 1 Should be administered after leukapheresis/enrollment and should be completed at least 14 days prior to the start of conditioning chemotherapy
+ R-ICE (Gisselbrecht et al, 2010) Rituximab 375 mg/m2 Day 1 Ifosfamide 5 g/m2 24h-CI Day 2 Carboplatin AUC5 Day 2 maximum dose 800 mg Etoposide 100 mg/m2 /d Days 1 through Day 3
+ R-GEMOX (Mounier et al, 2013) Rituximab 375 mg/m2 Day 1 Gemcitabine 1000 mg/m2 Day 2 Oxaliplatin 100 mg/m2 Day 2
+ R-GDP (Crump et al, 2004) (Gopal et al, 2010) Rituximab 375 mg/m2 Day 1 (or Day 8) Gemcitabine 1 g/m2 on Day 1 and Day 8 Dexamethasone 40 mg on Day 1 through Day 4 Cisplatin 75 mg/m2 on Day 1 (or carboplatin AUC5 on Day 1)
+ Radiotherapyb Per local standard up to 20 to 30 Gy Should be administered after leukapheresis/enrollment and should be completed at least 5 days prior to the start of conditioning chemotherapy

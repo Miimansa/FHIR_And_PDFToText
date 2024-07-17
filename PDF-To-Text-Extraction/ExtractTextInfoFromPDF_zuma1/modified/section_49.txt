@@ -1,0 +1,2 @@
+9.6. Diagnosis versus Signs and Symptoms
+For adverse events, a diagnosis (if known) rather than individual signs and symptoms should be recorded on the AE form.  The exception is for CRS where both the diagnosis and signs and symptoms will be captured on the CRF AE form.  For signs and symptoms of the underlying cancer, the signs and symptoms should be captured.  However, on the AE form, the investigator should state that these signs and symptoms are due to the underlying disease.

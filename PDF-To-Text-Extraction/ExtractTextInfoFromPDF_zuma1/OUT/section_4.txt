@@ -1,0 +1,5 @@
+Phase 2 Pivotal Study
+This study is designed to differentiate between a treatment that has a true response rate of 20% or less and a treatment with a true response rate of 40% or more. The hypothesis is that the objective response rate to axicabtagene ciloleucel in Cohort 1 and Cohort 2 is significantly greater than 20%. Primary Endpoint  Objective response rate (CR + PR) per the revised IWG Response Criteria for Malignant Lymphoma (Cheson et al, 2007) as determined by study investigators. Secondary Endpoints  Objective response rate per Independent Radiology Review Committee (IRRC)  DOR  PFS  OS  Incidence of adverse events and clinical significant changes in safety lab values  Levels of anti-CD19 CAR T cells in blood  Levels of cytokines in serum Incidence of anti-axicabtagene ciloleucel antibodies CCI 
+###TABLE###
+ 
+###TABLE###

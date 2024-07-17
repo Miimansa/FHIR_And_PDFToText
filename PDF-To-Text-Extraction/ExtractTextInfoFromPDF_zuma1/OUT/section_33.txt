@@ -1,0 +1,2 @@
+7.6. Cardiac Function
+Each subject’s cardiac function, as measured by ECHO will be assessed during the screening period to confirm study eligibility.  Both left ventricular ejection fraction (LVEF) and pericardial effusion will be assessed prior to study entrance by ECHO.  An ECHO performed following the subject’s last chemotherapy treatment and within 28 days prior to signing the consent may be used for confirmation of eligibility. To establish a baseline, an ECG will also be performed during the screening period.

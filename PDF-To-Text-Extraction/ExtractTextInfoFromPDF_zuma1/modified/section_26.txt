@@ -1,0 +1,10 @@
+6.4. Toxicity Management
+To date, the following important risks have been identified with axicabtagene ciloleucel:  CRS, neurologic toxicities, infections, hypogammaglobulinemia, and cytopenias. Refer to Section 6 of the current IB for details regarding these events and management guidance. As the safety experience with axicabtagene ciloleucel increases, the management guidance may be updated.  Therefore, it is important to always refer to the most current version of the axicabtagene ciloleucel IB for guidance regarding managing axicabtagene ciloleucel related toxicities. Additional information and management recommendations can also be found in the IB regarding important potential risks associated with axicabtagene ciloleucel, as well as possible complications associated with malignancy and cancer treatment. 6.4.1. Phase 2 Safety Management Study (Cohort 4 and Cohort 6 only) To date, the following risks have been identified with axicabtagene ciloleucel: CRS, neurologic events, infections, hypogammaglobulinemia, and cytopenias.  For CRS and neurological toxicities, the treatment guidance outlined in Table 8, Table 9, and Table 10 will be used for Cohort 4 and Cohort 6 of the Phase 2 safety management study.  Additional safety information and management recommendations for the other identified risks can also be found in the most current version of the IB. Table 8. Grading and Management of CRS in Cohort 4 and Cohort 6 
+###TABLE###
+ 
+###TABLE###
+ Table 9. Grading and Management of Neurologic Toxicities in Cohort 4 and Cohort 6 
+###TABLE###
+ Table 10. Management of Cerebral Edema in Cohort 4 and Cohort 6 
+###TABLE###
+ 6.4.2. Phase 2 Safety Management Study (Cohort 5) To date, the following risks have been identified with axicabtagene ciloleucel: CRS, neurologic events, infections, hypogammaglobulinemia and cytopenias. Please refer to the current version of the IB for details and management.

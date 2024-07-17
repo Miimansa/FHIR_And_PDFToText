@@ -1,0 +1,18 @@
+STUDY GLOSSARY
+
+ Setting Outcome to Subsequent Therapy
+ Refractory to 1st line
+ (Philip et al, 1995) ORR 21%
+ (Josting et al, 2000) ORR 15%, median OS 6 mos
+ (Ardeshna et al, 2005) ORR 0%
+ (Hitz et al, 2010) Proceeded to ASCT 9%, 3% survived > 1 year
+ (Telio et al, 2012) ORR 23%, median OS 10 mos
+ (Matasar et al, 2013) ORR 10%
+ Refractory to 2nd line
+ (Moskowitz et al, 1999) Median OS 5 mos
+ (Ardeshna et al, 2005) ORR 18%, median OS (large B-cell lympohoma) <6 mos
+ (Seshadri et al, 2008) ORR 14%
+ Relapsed After ASCT
+ (Nagle et al, 2013) Median OS 8 mos
+
+ Figure 1. Study Schema (Phase 1 and Phase 2) Study KTE-C19-101 is a Phase 1-2 single-arm, open-label, multicenter study evaluating the safety and efficacy of KTE-C19 in subjects with refractory DLBCL, PMBCL and TFL. During Phase 1, approximately 6-24 subjects with DLBCL, PMBCL or TFL will be enrolled to evaluate the safety of axicabtagene ciloleucel regimens. A safety review team (SRT), internal to the study sponsor, will review the safety data and make recommendations on further study conduct of Phase 1 and progression to Phase 2 as depicted in Figure 3 and outlined in Section 9.10. Upon SRT recommendation, the pivotal Phase 2 will commence and enroll subjects into 2 separate cohorts designated as Cohort 1 and Cohort 2.  Cohort 1 will enroll adult subjects with refractory DLBCL.  Cohort 2 will enroll adult subjects with refractory PMBCL and TFL. Refer to entrance criteria for TFL eligibility requirements. Upon completion of enrollment of the Phase 2 pivotal study, the Phase 2 Safety Management Study will commence and enroll subjects into 4 separate cohorts designated as Cohort 3, Cohort 4, Cohort 5, and Cohort 6.  Cohort 3 will enroll adult subjects with relapsed or refractory transplant ineligible DLBCL, PMBCL, and TFL.  Cohort 4 will enroll adult subjects with relapsed or refractory DLBCL, PMBCL, TFL and HGBCL after 2 systemic lines of therapy.  Cohort 5 will enroll adult subjects with relapsed or refractory DLBCL, PMBCL, TFL, or HGBCL after 2 systemic lines of therapy.  Cohort 6 will enroll adult subjects with relapsed or refractory DLBCL, PMBCL, TFL, or HGBCL after 2 systemic lines of therapy. Independent of the phase of the study each subject will follow the same study treatment schedule and procedural requirements. Each subject will follow through the following study periods: a screening period, an enrollment/leukapheresis period, a conditioning chemotherapy period, an IP treatment period, a post treatment assessment period and a long term follow-up period.

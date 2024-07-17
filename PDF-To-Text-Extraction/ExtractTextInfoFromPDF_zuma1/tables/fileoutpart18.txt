@@ -1,0 +1,15 @@
+ Table 12. Schedule of Assessments (Long-term Follow-up Period)
+ Procedure Long Term Follow-up Pe1iod (Each "isit calculated from Day 0)
+ Visit Frequency Month 6 Month 9 Month 12 Month 15 Month 18 Month 24 Month 30 Month 36 Month 42 Month 48 Month 54 Month 60 Month 72 and Annually Thereafter
+ EQ-5D Questionnaire (Cohorts 3, 4, 5, and 6 only) X
+ 1 Physical exam X X X X X X
+ PET-CT/disease assessment2 X X X X X X 2 x 2 x 2 x 2 x 2 x 2 x 2 x
+ Survival Status X X X X X X X X X X X X X
+ Blood draw for CBC w/differential 3 X X X X X X
+ Blood draw for Anti-axicabtagene ciloleucel antibodies 4 X X X
+ Blood draw for Lymphocyte subsets X X X X X X
+ Blood draw for anti-CD19 CART cells3 X X X
+ Blood draw for RCR analysis 5 X X X X X X X
+ Targeted AE/SAEs 6 X X X X X X
+ Targeted concomitant medication 7 X X X X X X
+ Subsequent therapy for NHI..8 X X X X X X X X X X X X X
