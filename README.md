@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code files for two major tasks aimed at enhancing the interoperability and usability of health data:
+This repository contains the code files for two major tasks:
 
 1. **FHIR Resource Generation**
 2. **PDF-To-Text Extraction**
