@@ -32,6 +32,7 @@ This repository contains the code files for two major tasks:
 ├── adobe_text_extraction.ipynb
 ├── protocols_zuma
 └── ExtractTextInfoFromPDF_zuma1
+
 ## Getting Started
 
 ### Prerequisites
