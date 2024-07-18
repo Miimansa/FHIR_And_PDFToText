@@ -10,7 +10,7 @@ PDF-to-text extraction encounters several challenges that must be addressed for 
 - Removing redundant headers and footers to focus solely on core content.
 - Ensuring the clarity and legibility of extracted text amidst variations in font styles and the use of italics.
 
-In response to these challenges, we explored the Adobe PDF Services API as a potential solution. The API offered promising features, including output in JSON format, facilitating the identification of section headers and corresponding section text within PDF documents.
+We explored the Adobe PDF Services API as a potential solution in response to these challenges. The API offered promising features, including output in JSON format, facilitating the identification of section headers and corresponding section text within PDF documents.
 
 ## Files/Folders
 
@@ -26,11 +26,11 @@ To use the Adobe PDF Services API, you need to obtain API credentials. Follow th
 
 2. Sign in with your Adobe ID or your Google account.
 
-3. After signing in, give your credential's name and choose python as the language.
+3. After signing in, set up a name for your credentials and choose Python as the language.
 
 4. Click on 'Create credentials' to generate your credentials.
 
-5. Upon submission, you will receive your credentials, including the `API Key` and `Client Secret`.
+5. Upon submission, you will receive your credentials, including the `API Key` and `Client Secret.`
 
 6. Use these credentials in your application to authenticate and make requests to the Adobe PDF Services API.
 
