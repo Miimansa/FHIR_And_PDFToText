@@ -18,4 +18,20 @@ In response to these challenges, we explored the Adobe PDF Services API as a pot
 - **ExtractTextInfoFromPDF_zuma1**: Output folder containing all conversions for the Zuma1 protocol PDF.
 - **adobe_text_extraction.ipynb**: Python notebook containing code for all conversions, including table extraction and integration of tables into text files.
 
+## Obtaining Credentials from Adobe API Services
+
+To use the Adobe PDF Services API, you need to obtain API credentials. Follow these steps:
+
+1. Visit the [Adobe PDF Services API page](https://acrobatservices.adobe.com/dc-integration-creation-app-cdn/main.html?api=pdf-services-api).
+
+2. Sign in with your Adobe ID or your Google account.
+
+3. After signing in, give your credential's name and choose python as the language.
+
+4. Click on 'Create credentials' to generate your credentials.
+
+5. Upon submission, you will receive your credentials, including the `API Key` and `Client Secret`.
+
+6. Use these credentials in your application to authenticate and make requests to the Adobe PDF Services API.
+
 
